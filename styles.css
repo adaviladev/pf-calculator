@@ -1,0 +1,108 @@
+:root {
+    --dark-gray: #151515;
+    --dark-red: #A91D3A;
+    --dark-pink: #C73659;
+    --light-gray: #EEEEEE;
+  }
+  
+  #app {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  body {
+    background-color: var(--dark-gray);
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+  
+  .calculator {
+    border: 2px solid var(--dark-red);
+    padding: 5px;
+    background: black;
+    width: 320px;
+    position: relative;
+    
+  }
+  
+  .formulaScreen {
+    min-height: 20px;
+    font-family: 'Digital', monospace;
+    font-size: 20px;
+    color: orange;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
+  .outputScreen {
+    font-size: 29px;
+    font-family: 'Digital', monospace;
+    color: white;
+    text-align: right;
+    line-height: 35px;
+  }
+  
+  button {
+    position: relative;
+    height: 65px;
+    width: 80px;
+    color: #EEEEEE;
+    outline: 2px solid black;
+    border: none;
+    background: #A91D3A;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: default;
+  }
+  button:hover {
+    outline: 0.02em solid grey;
+    z-index: 3;
+  }
+  
+  .jumbo {
+    width: 160px;
+    background: #A91D3A !important;
+  }
+  
+  #equals {
+    background: var(--dark-gray) !important;
+  }
+  
+  #add {
+    background: var(--dark-gray) !important;
+  }
+  
+  #subtract {
+    background: var(--dark-gray) !important;
+  }
+  
+  #multiply {
+    background: var(--dark-gray) !important;
+  }
+  
+  #divide {
+    background: var(--dark-gray) !important;
+  }
+  
+  
+  .author {
+    text-align: center;
+    font-family: monospace; /* Changed from Share Tech Mono to monospace */
+    margin-top: 15px;
+    color: white;
+  }
+  .author a {
+    text-decoration: none;
+    color: gray;
+    line-height: 26px;
+  }
